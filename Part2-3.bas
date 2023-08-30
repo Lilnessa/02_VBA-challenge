@@ -5,6 +5,10 @@ Set ws = ActiveSheet
 
 For Each ws In Worksheets
 
+'   ws.Range("n1").Value = "Yearly open value"
+'   ws.Range("o1").Value = "Yearly end value"
+
+
 Dim yearlyopen As Double
 Dim yearlyend As Double
 Dim yearlychange As Double
