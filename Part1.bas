@@ -10,9 +10,7 @@ For Each ws In Worksheets
     ws.Range("k1").Value = "Yearly Change"
     ws.Range("L1").Value = "Percent Change"
     ws.Range("m1").Value = "Total Stock Volumn"
-'   ws.Range("n1").Value = "Yearly open value"
-'   ws.Range("o1").Value = "Yearly end value"
-    
+  
     ws.Columns("j:Q").AutoFit
     
 Dim ticker As String
